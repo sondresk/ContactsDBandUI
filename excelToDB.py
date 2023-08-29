@@ -31,7 +31,7 @@ for row in df.itertuples():
     cursor.execute(insert_str, (row.name, row.email, row.phone, row.address, convert_to_binary(row.photo),
                                 row.birth_date, row.occupation, row.notes))
 
-# Commits the change
+# Commit the changes to the table
 cursor.connection.commit()
 
 
