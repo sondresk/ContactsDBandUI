@@ -1,5 +1,5 @@
 # ContactsDBandUI
-A simple database application to store contacts with a UI to view, manage, and add contacts.
+A simple database application to store contacts with a UI to view, manage, and add contacts. The UI is created using Tkinter. \n
 The example contact info and pictures are from www.random-name-generator.com.
 
 ## Files
