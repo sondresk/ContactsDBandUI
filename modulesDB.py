@@ -752,11 +752,3 @@ class AddContactApp(tk.Tk):
         event.widget.tk_focusNext().focus()
         return "break"
 
-
-if __name__ == "__main__":
-
-    app = DisplayAndEdit()
-    app.state("zoomed")  # Open maximized
-    # print(app.cget("bg"))
-    # app.protocol("WM_DELETE_WINDOW", app.contact.close_connection())  # TODO: Y this not work
-    app.mainloop()
