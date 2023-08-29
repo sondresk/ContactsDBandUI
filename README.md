@@ -1,8 +1,9 @@
 # ContactsDBandUI
 A simple database application to store contacts with a UI to view, manage, and add contacts.
+The example contact info and pictures are from www.random-name-generator.com.
 
 ## Files
-createDB.py: Create a simple SQLite3 database with a "contacts" table: 
+createDB.py: Create a simple SQLite3 database with a "contacts" table -  
                     contacts(id INTEGER PRIMARY KEY NOT NULL, name TEXT NOT NULL, email TEXT, "
                     "phone TEXT, address TEXT, photo BLOB, birth_date TEXT, occupation TEXT, notes TEXT)
 
